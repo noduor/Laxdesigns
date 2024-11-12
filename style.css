@@ -232,6 +232,12 @@ section{
         font-size: 1.5rem;
     }
 
+     .main-container .image{
+        width: 40%;
+        height: 30%;
+        margin-bottom: 30px;
+    }
+
     .main-container{
         display: flex;
         flex-direction: column;
@@ -265,13 +271,13 @@ section{
 
 @media (max-width: 240px){
     .main-container .image{
-        width: 70%;
-        height: 60%;
+        width: 40%;
+        height: 30%;
         margin-bottom: 30px;
     }
 
     .main-container .content{
-        width: 80%;
+        width: 60%;
     }
 
     .main-container button{
