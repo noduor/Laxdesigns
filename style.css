@@ -263,15 +263,15 @@ section{
 
     .main-container .image{
         z-index: -1;
-        width: 50%;
+        width: 60%;
         height: 60%;
     }
 }
 
-@media (max-width: 240px){
+@media (max-width: 440px){
     .main-container .image{
         width: 60%;
-        height: 40%;
+        height: 50%;
         margin-bottom: 30px;
     }
 
