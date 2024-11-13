@@ -89,7 +89,7 @@ nav{
     position: absolute;
     top: 0;
     transform: translateY(-500px);
-    width: 100%;
+    width: 40%;
     height: auto;
     backdrop-filter: blur(4px) brightness(40%);
     box-shadow: 0 0 20px black;
@@ -104,6 +104,7 @@ nav{
     padding: 15px 0;
     align-items: center;
     transition: 0.2s linear;
+    size: 30px;
 }
 
 .dropdown .link a:hover{
@@ -257,7 +258,7 @@ section{
     }
 
     .content h1{
-        font-size: clamp(1.5rem, 0.5rem + 4vw, 0.8rem);
+        font-size: clamp(0.7rem, 0.5rem + 2vw, 0.8rem);
     }
 
     .content .graphic{
@@ -299,8 +300,8 @@ section{
 
     .main-container .image{
         z-index: -1;
-        width: 30%;
-        height: 40%;
+        width: 20%;
+        height: 30%;
     }
 
     .simage1{
@@ -373,3 +374,5 @@ section{
    margin-top: 10px;
 }
 }
+
+
