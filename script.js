@@ -44,3 +44,10 @@ function eraseText(){
 }
 
 window.onload = typeWritter;
+
+
+
+
+window.onscroll = scrollfunction(); {
+    scrollhere(window.scrollY)
+}
