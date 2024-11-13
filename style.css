@@ -371,6 +371,7 @@ section{
         font-size: 0.8rem;
         overflow: hidden;
         padding: 2px;
+       margin: 9px;
     }
 
     .main-container .image{
