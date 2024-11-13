@@ -293,11 +293,11 @@ section{
     }
 
     .social-links i{
-        width: 30%;
-        height: 1rem;
-        font-size: 0.7rem;
+        width: 1.3rem;
+        height: 1.3rem;
+        font-size: 0.8rem;
         overflow: hidden;
-        margin-bottom: 2px;
+        padding: 2px;
     }
 
     .main-container .image{
@@ -316,7 +316,11 @@ section{
     }
 
     .content button{
-        font-size: 80%;
+        width: 50%;
+        height: 6vh;
+        margin: 30px;
+        font-size: 70%;
+        font-weight: 500;
     }
 }
 
@@ -361,10 +365,10 @@ section{
         height: 40%;
     }
 
-    .social-links i{
-        width: 1.6rem;
-        height: 1.6rem;
-        font-size: 1rem;
+   .social-links i{
+        width: 1.3rem;
+        height: 1.3rem;
+        font-size: 0.8rem;
         overflow: hidden;
         padding: 2px;
     }
@@ -380,8 +384,12 @@ section{
     }
 
     .content button{
-   margin-top: 10px;
-}
+        width: 50%;
+        height: 6vh;
+        margin: 30px;
+        font-size: 70%;
+        font-weight: 500;
+    }
 }
 
 
