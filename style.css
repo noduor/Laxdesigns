@@ -314,6 +314,10 @@ section{
         height: 105px;
         position:relative;
     }
+
+    .content button{
+        font-size: 80%;
+    }
 }
 
 @media  (max-width: 600px) {
