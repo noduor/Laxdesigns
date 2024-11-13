@@ -293,9 +293,9 @@ section{
     }
 
     .social-links i{
-        width: 1rem;
+        width: 30%;
         height: 1rem;
-        font-size: 1rem;
+        font-size: 0.7rem;
         overflow: hidden;
         margin-bottom: 2px;
     }
