@@ -219,7 +219,7 @@ section{
 .content button{
     width: 50%;
     height: 6vh;
-    margin: 30px;
+    margin: 15px;
     background-color: rgb(238, 255, 0);
     color: black;
     border: none;
@@ -247,6 +247,105 @@ section{
 
 .listser{
     margin-bottom: 20px;
+}
+
+.simage{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+    position:sticky;
+    margin-bottom: 30px;
+}
+
+
+.cont{
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+}
+.box1{
+    height: 390px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgb(238, 255, 0);
+}
+
+.box2{
+    height: 390px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgb(238, 255, 0);
+}
+
+.box3{
+    height: 390px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgb(238, 255, 0);
+}
+
+.logo1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 10px;
+    margin-left: 30%;
+}
+
+
+h4{
+    display: inline;
+    color: white;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 p{
+    font-size: clamp(0.2rem, 0.2rem + 4vw, 0.8rem);
+    margin-left: 10px ;
+    margin-right: 10px ;
+    color: white;
+}
+
+.box2 p{
+    font-size: clamp(0.2rem, 0.2rem + 4vw, 0.8rem);
+    margin-left: 10px ;
+    margin-right: 10px ;
+    color: white;
+}
+
+.box3 p{
+    font-size: clamp(0.2rem, 0.2rem + 4vw, 0.8rem);
+    margin-left: 10px ;
+    margin-right: 10px ;
+    color: white;
+}
+
+.box1 button{
+    margin-top: 5px;
+    margin-left: 60px;
+}
+
+.box2 button{
+   margin-top: 5px;
+   margin-left: 60px;
+}
+
+.box3 button{
+    margin-top: 5px;
+    margin-left: 60px;
+}
+
+.lastbt{
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 @media  (max-width: 900px) {
@@ -292,13 +391,12 @@ section{
         height: 40%;
     }
 
-   .social-links i{
-        width: 1.3rem;
-        height: 1.3rem;
-        font-size: 0.8rem;
+    .social-links i{
+        width: 30%;
+        height: 1rem;
+        font-size: 0.7rem;
         overflow: hidden;
-        padding: 2px;
-        margin: 5px;
+        margin-bottom: 2px;
     }
 
     .main-container .image{
@@ -319,9 +417,107 @@ section{
     .content button{
         width: 90%;
         height: 6vh;
-        margin: 30px;
+        margin: 10px;
         font-size: 70%;
         font-weight: 500;
+    }
+
+    .simage{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        overflow: hidden;
+        position:sticky;
+        margin-bottom: 30px;
+    }
+    
+    
+    .cont{
+        display: flex;
+        column-gap: 30px;
+        margin-bottom: 40px;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 20px;
+    }
+    .box1{
+        height: 390px;
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 0 40px rgb(238, 255, 0);
+    }
+    
+    .box2{
+        height: 390px;
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 0 40px rgb(238, 255, 0);
+    }
+    
+    .box3{
+        height: 390px;
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 0 40px rgb(238, 255, 0);
+    }
+    
+    .logo1{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin: 10px;
+        margin-left: 30%;
+    }
+        
+    h4{
+        display: inline;
+        color: white;
+        position: relative;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box1 p{
+        font-size: clamp(0.2rem, 0.2rem + 4vw, 0.8rem);
+        margin-left: 10px ;
+        margin-right: 10px ;
+        color: white;
+    }
+    
+    .box2 p{
+        font-size: clamp(0.2rem, 0.2rem + 4vw, 0.8rem);
+        margin-left: 10px ;
+        margin-right: 10px ;
+        color: white;
+    }
+    
+    .box3 p{
+        font-size: clamp(0.2rem, 0.2rem + 4vw, 0.8rem);
+        margin-left: 10px ;
+        margin-right: 10px ;
+        color: white;
+    }
+    
+    .box1 button{
+        margin-top: 5px;
+        margin-left: 60px;
+    }
+    
+    .box2 button{
+       margin-top: 5px;
+       margin-left: 60px;
+    }
+    
+    .box3 button{
+        margin-top: 5px;
+        margin-left: 60px;
+    }
+    
+    .lastbt{
+        margin-left: 25%;
+        margin-right: 25%;
     }
 }
 
@@ -366,13 +562,13 @@ section{
         height: 40%;
     }
 
-   .social-links i{
+    .social-links i{
         width: 1.3rem;
         height: 1.3rem;
         font-size: 0.8rem;
         overflow: hidden;
         padding: 2px;
-        margin: 5px;
+        margin: 9px;
     }
 
     .main-container .image{
@@ -393,5 +589,8 @@ section{
         font-weight: 500;
     }
 }
+
+
+
 
 
